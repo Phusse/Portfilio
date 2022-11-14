@@ -31,9 +31,18 @@ body {
 #name {
   font-family: "Dancing Script", cursive;
   font-size: 70px;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   color: hsl(315, 53%, 53%);
   text-align: left;
+  animation: name 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes name {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 10px #046b79, 0 0 20px #540479, 0 0 20px #540479;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 10px #5b128b, 0 0 30px #540479, 0 0 30px #540479;
+  }
 }
 #name:hover {
   color: hsl(184, 53%, 53%);
