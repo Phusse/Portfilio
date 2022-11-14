@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:ital,wght@0,500;1,500&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lobster&family=Montserrat:ital,wght@0,500;1,500&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap");
+
+body {
+  margin-top: 50px;
+  background-color: hsl(212, 58%, 15%);
+}
+.intro {
+  width: 80%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+  margin-left: 50px;
+  margin: auto;
+}
+.right p {
+  padding-left: 100px;
+}
+#name {
+  font-family: "Dancing Script", cursive;
+  font-size: 70px;
+  letter-spacing: 4px;
+  color: hsl(315, 53%, 53%);
+  text-align: left;
+}
+#name:hover {
+  color: hsl(184, 53%, 53%);
+}
+#port {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-family: "Lobster", cursive;
+  padding: 20px;
+}
+#port span {
+  color: rgb(172, 85, 51);
+}
+#info {
+  font-size: xx-large;
+  color: rgba(121, 114, 114, 0.767);
+}
+.left img:hover{
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        transition: 1s;
+}
+.cards {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.cards h5 {
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+}
+.services {
+  display: flex;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-family: "Dancing Script", cursive;
+}
+.content .fab {
+  font-size: 70px;
+  margin: 16px 0;
+}
+.content > * {
+  flex: 1 1 100%;
+}
+.content:hover {
+  color: white;
+}
+.content:hover a {
+  border-color: white;
+  background: white;
+}
+.content-1:hover {
+  border-color: hsl(218, 29%, 11%);
+  background: hsl(216, 28%, 7%);
+}
+.content-1:hover a {
+  color: hsl(216, 28%, 7%);
+}
+.content-2:hover {
+  border-color: rgb(17, 17, 110);
+  background: black;
+}
+.content-2:hover a {
+  color: black;
+}
+.content-3:hover {
+  border-color: rgb(56, 56, 56);
+  background: #0a66c2;
+}
+.content-3:hover a {
+  color: grey;
+}
+.content-4:hover {
+    border-color: rgb(56, 56, 56);
+    background: #531e75;
+  }
+  .content-4:hover a {
+    color: black;
+  }
+.content h2 {
+  font-size: 30px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.content p {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+.content a {
+  margin: 22px 0;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 15px 0;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+.content a:hover {
+  border-radius: 4px;
+}
+footer {
+  text-align: center;
+  font-size: large;
+}
+@media (max-width: 900px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+}
