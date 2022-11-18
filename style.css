@@ -5,7 +5,7 @@
 
 body {
   margin-top: 50px;
-  background-color: hsl(212, 58%, 15%);
+  background-color: hsl(211, 47%, 21%);
 }
 .intro {
   width: 80%;
@@ -62,7 +62,7 @@ body {
 }
 #info {
   font-size: xx-large;
-  color: rgba(104, 94, 94, 0.863);
+  color: #D4F1F4;
 }
 .left img:hover{
         -webkit-transform: scaleX(-1);
@@ -72,7 +72,7 @@ body {
 .flex:hover{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  transition: 1s;
+  transition: 1.7s;
 }
 .right #name:hover{
   -webkit-transform: scaleX(-1);
@@ -152,6 +152,7 @@ body {
   }
 .content h2 {
   font-size: 30px;
+  font-weight: 900;
   margin: 16px 0;
   letter-spacing: 1px;
   text-transform: uppercase;
